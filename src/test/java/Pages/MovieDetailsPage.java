@@ -10,7 +10,6 @@ import java.time.Duration;
 public class MovieDetailsPage {
     private WebDriver driver;
     private WebDriverWait wait;
-
     private By movieTitle = By.xpath("//h1[@class='movie-title']");
     private By movieDescription = By.xpath("//p[@class='movie-overview']");
     private By watchButton = By.className("play-button");
