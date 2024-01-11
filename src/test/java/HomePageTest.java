@@ -13,7 +13,7 @@ public class HomePageTest {
     LoginPage loginpage;
     @BeforeMethod
     public void setUp() {
-        // Set up the WebDriver instance (assuming you have ChromeDriver installed)
+        
         System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         homePage = new HomePage(driver);
