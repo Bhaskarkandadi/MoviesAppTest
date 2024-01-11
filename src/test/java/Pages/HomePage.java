@@ -44,7 +44,6 @@ public class HomePage {
         return headingElement.getText();
     }
     public boolean areMoviesDisplayedInSection(String sectionName) {
-        // Assuming each movie section has a unique identifier
         return waitForVisibilityOfElement(moviesSection).isDisplayed() &&
                 !driver.findElements(moviesSection).isEmpty();
     }
